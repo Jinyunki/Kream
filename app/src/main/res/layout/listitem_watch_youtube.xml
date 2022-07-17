@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/iv_youtube_video"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:background="#ff0000"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@id/iv_youtube_video"
+        android:layout_alignBottom="@id/iv_youtube_video"
+        android:layout_margin="15dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_youtube_topic"
+        android:layout_marginVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[요즘신발것들] 루이비통포스.. 드디어 리뷰! (louis Vuitton x Nike Air Froce 1 Low by Virgil Abloh)"
+        android:layout_below="@id/iv_youtube_video"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_youtube_topic"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/iv_youtube_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_youtube_profile_35" />
+
+        <TextView
+            android:id="@+id/tv_youtube_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="채널덕쓰"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

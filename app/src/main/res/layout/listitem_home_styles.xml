@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_bottom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style Picks!"
+        android:textStyle="bold"
+        android:textColor="#80000000"
+        android:textSize="20dp" />
+
+    <com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost>
+
+</LinearLayout>

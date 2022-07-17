@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_capture"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#293B9F"/>
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_circle_24"
+            android:layout_alignTop="@id/iv_capture"
+            android:layout_alignStart="@id/iv_capture"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_sns_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" @167cm"
+            android:textColor="@color/white"
+            android:layout_alignBottom="@id/iv_capture"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUCKY DRAW"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMMING SOON"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06/30 목 12:00"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Jordan 1 x Travis Scott x Fragment\n Retro Low OG SP Military Blue"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/iv_draw_item"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#0000ff"/>
+
+</LinearLayout>

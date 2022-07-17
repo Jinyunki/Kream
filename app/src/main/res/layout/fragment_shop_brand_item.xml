@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.jyk.kreamapp.ItemAndUtils.SquareImageView
+        android:id="@+id/iv_brand_filter_item"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_brand_filter_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="브랜드명" />
+
+</LinearLayout>

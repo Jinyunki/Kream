@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="20dp">
+
+    <TextView
+        android:paddingVertical="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="자주 묻는 질문"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_my_edge_black_color"/>
+
+    <TextView
+        android:paddingVertical="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1:1 문의"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:background="@drawable/ic_my_edge"/>
+
+</LinearLayout>

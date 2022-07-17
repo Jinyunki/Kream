@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tv_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_profile48"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/tv_nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nick_name"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/tv_profile"/>
+
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="history_time"
+            android:textColor="@color/grey"
+            android:layout_toRightOf="@id/tv_profile"
+            android:layout_below="@id/tv_nick_name"/>
+
+        <ImageView
+            android:layout_marginEnd="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost>
+
+
+
+    <com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tag_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.jyk.kreamapp.ItemAndUtils.NestedScrollableHost>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/iv_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_heart_broken_24" />
+
+        <ImageView
+            android:id="@+id/iv_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_talk"
+            android:layout_toRightOf="@id/iv_heart"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_24"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/tv_empathy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공감 0개"
+            android:layout_below="@id/iv_heart"
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="주저리 주저리 지할말"
+            android:layout_below="@id/tv_empathy"
+
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0000ff"
+            android:text="#Tag Text"
+            android:layout_below="@id/tv_text"
+
+            android:layout_marginVertical="5dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

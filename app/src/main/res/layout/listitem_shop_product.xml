@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.jyk.kreamapp.ItemAndUtils.SquareImageView
+            android:id="@+id/iv_capture"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#5E448AFF" />
+
+        <ImageView
+            android:id="@+id/iv_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_shop_bookmark"
+            android:layout_alignBottom="@id/iv_capture"
+            android:layout_alignEnd="@id/iv_capture"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/tv_product_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nike"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nike Dunk High Retro Se"/>
+
+    <TextView
+        android:layout_marginTop="7dp"
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="156,000원"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_product_price_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즉시 구매가"/>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/edge.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_bell_24.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_post_35.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_question_24.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_quick.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_shop_bookmark.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_watch_.xml" value="0.1595" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/first_page.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/first_page_rv_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/firstpage_category.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/firstpage_category_item.xml" value="0.24953460693359375" />
+        <entry key="app/src/main/res/layout/firstpage_product.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/firstpage_product_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/firstpage_style.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/firstpage_tag_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/firstpage_viewpager.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/firstpage_viewpager_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/frag_home_category.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_home_banner.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/fragment_hot_and_following.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_info.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/fragment_latest.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_my.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_my_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_shop_banner_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_shop_brand_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_style.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_style_following.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/fragment_today.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_watch.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/home_frag.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/itemlist_home_products.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/listitem_follwing.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_home_banner.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/listitem_home_catagorise.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/listitem_home_catagory_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/listitem_home_category_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/listitem_home_product_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_home_products.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/listitem_home_styles.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/listitem_hot_profile.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/listitem_hot_tag.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_hot_tag_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_info_banner.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/listitem_info_category.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/listitem_info_category_item.xml" value="0.16893115942028986" />
+        <entry key="app/src/main/res/layout/listitem_info_product.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_profile_capture.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_profile_grade.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shop_product.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_breakdown.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_call.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_evaluation.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_grade.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_history.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_inquiry.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_notice.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_store.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_shopping_totalevaluation.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_watch_filter.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_watch_filter_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/listitem_watch_youtube.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/main_firstpage.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/main_secondpage.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/secondpage_banner.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/secondpage_product.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/secondpage_tab.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/secondpage_tab_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/shop_fragment.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/style_folowing_vp_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_frag.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_hot_page.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_hot_tag_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_hot_tag_rv.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_page_capture_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_page_folowing.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_page_hot_vertical.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_page_new_vertical.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/style_page_rv_vertical.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/thirdpage_history.xml" value="0.3440460647361866" />
+        <entry key="app/src/main/res/layout/thirdpage_tag_product_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/thirdpage_viewpager_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/thirdpagetotal.xml" value="0.19610507246376813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
